@@ -10,7 +10,7 @@
            [org.broadinstitute.sting.utils.codecs.vcf VCFInfoHeaderLine VCFHeaderLineType]
            [org.broadinstitute.sting.utils BaseUtils])
   (:require [incanter.stats :as istats])
-  (:gen-class
+  #_(:gen-class
    :name bcbio.variation.annotate.nbq.MeanNeighboringBaseQuality
    :extends org.broadinstitute.sting.gatk.walkers.annotator.interfaces.InfoFieldAnnotation))
 

@@ -6,7 +6,7 @@
             [bcbio.variation.haploid]
             [bcbio.align.reorder]
             [bcbio.variation.utils.core])
-  (:gen-class))
+#_  (:gen-class))
 
 (def ^{:doc "Mapping of special command line arguments to main functions"
        :private true}

@@ -7,7 +7,7 @@
            [org.broadinstitute.sting.utils.codecs.vcf VCFInfoHeaderLine VCFHeaderLineType])
   (:use [circdesigna.core :only [min-free-energy]]
         [bcbio.variation.annotate.entropy :only [get-flank-seq]])
-  (:gen-class
+  #_(:gen-class
    :name bcbio.variation.annotate.entropy.MinFreeEnergy
    :extends org.broadinstitute.sting.gatk.walkers.annotator.interfaces.InfoFieldAnnotation))
 

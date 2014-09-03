@@ -1,4 +1,4 @@
-(defproject bcbio.variation "0.0.8"
+(defproject intronic/bcbio.variation "0.0.8"
   :description "Toolkit to analyze genomic variation data, built on the GATK with Clojure"
   :license {:name "MIT" :url "http://www.opensource.org/licenses/mit-license.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
@@ -62,9 +62,9 @@
   :javac-options ["-nowarn" "-target" "1.6" "-source" "1.6"]
   ;;:jvm-opts ["-Xms750m" "-Xmx2g"]
   :omit-source false
-  :aot [bcbio.variation.vcfwalker bcbio.variation.core bcbio.variation.annotate.nbq
+  #_:aot #_[bcbio.variation.vcfwalker bcbio.variation.core bcbio.variation.annotate.nbq
         bcbio.variation.annotate.entropy bcbio.variation.annotate.mfe]
-  :main bcbio.variation.core
+  #_:main #_bcbio.variation.core
   :aliases {"variant-compare" ["run" "-m" "bcbio.variation.compare"]
             "variant-prep" ["run" "-m" "bcbio.variation.combine"]
             "variant-evaluate" ["run" "-m" "bcbio.variation.evaluate"]
