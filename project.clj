@@ -25,7 +25,7 @@
                  [org.biojava/biojava3-alignment "3.0.4"]
                  [org.clojars.chapmanb/circdesigna "0.0.2"]
                  [clj-genomespace "0.1.3"]
-                 [clj-blend "0.1.1-SNAPSHOT"]
+                 [clj-blend "0.1.1-20131111.190404-5"]
                  [incanter/incanter-core "1.4.0" :exclusions [org.clojure/clojure]]
                  [incanter/incanter-charts "1.4.0" :exclusions [org.clojure/clojure]]
                  [incanter/incanter-excel "1.4.0" :exclusions [org.clojure/clojure]]
