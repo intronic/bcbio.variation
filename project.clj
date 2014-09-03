@@ -1,6 +1,7 @@
-(defproject intronic/bcbio.variation "0.0.8"
+(defproject intronic/bcbio.variation "0.0.8a"
   :description "Toolkit to analyze genomic variation data, built on the GATK with Clojure"
   :license {:name "MIT" :url "http://www.opensource.org/licenses/mit-license.html"}
+  :url "https://github.com/chapmanb/bcbio.variation"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/math.combinatorics "0.0.2" :exclusions [org.clojure/clojure]]
                  [org.clojure/data.csv "0.1.2" :exclusions [org.clojure/clojure]]
